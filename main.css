@@ -1,0 +1,212 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	overflow: hidden;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 10px;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-weight: 100;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	text-align: right;
+	font-size: 16px;
+	padding: 5px;
+	margin: 10px auto;
+	display: block;
+}
+
+button:focus {
+	outline: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tabcontent {
+    display: none;
+}
+
+
+/*	NAVIGATION div */
+#navigation {
+	width: 20%;
+	display: inline;
+	float: left;
+}
+
+#navigation h3 {
+	margin: 0;
+	text-align: right;
+}
+
+#navigation div {
+	margin-top: 290px;
+	text-align: right;	
+}
+
+#navigation button {
+	margin-right: 0;
+}
+#navigation button:hover {
+	border-bottom: 1px black solid;
+}
+
+#navigation button.active {
+	border-bottom: 1px black solid;
+}
+
+
+/*------------*/
+
+#content {
+	width: 80%;
+	float: right;
+	display: inline;
+}
+
+
+/*main tab*/
+#main {
+	text-align: center;
+}
+
+#main img {
+	border: 1px black solid;
+	padding: 40px;
+	margin-top: 60px
+}
+
+
+/* PORTFOLIO tab*/
+#portfolio ul {
+	margin: 20px 0;
+}
+
+#portfolio img {
+	width: 25%;
+	float: left;
+	padding-left: 6%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+
+/*	WORKSHOPS tab */
+#workshops ul {
+	margin-top: 170px;
+	padding: 0 20px;
+}
+
+#workshops img {
+	width: 29%;
+	float: left;
+	padding: 2%;
+}
+
+
+#workshops p {
+	clear: both;
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 15px;
+}
+
+
+/* EXPO tab */
+#expo img {
+	border: 1px black solid;
+	padding: 40px;
+	max-height: 550px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#expo div {
+	position: absolute;
+	z-index: 1;
+	background-color: white;
+	width: 40%;
+	height: 170px;
+	top: 390px;
+	bottom: 0;
+	left: 600px;
+	right: 0;
+	padding: 10px 40px;
+}
+
+
+/* ABOUT tab */
+#about img {
+	border: 1px black solid;
+	padding: 40px;
+	max-height: 550px;
+	margin: 20px 40px;
+}
+
+#about div {
+	position: absolute;
+	z-index: 1;
+	background-color: transparent;
+	color: white;
+	width: 20%;
+	top: 170px;
+	bottom: 0;
+	left: 340px;
+	right: 0;
+	padding: 10px 40px;
+}
+
+
+/* CONTACT tab */
+#contact img {
+	width: 40%;
+	float: left;
+	padding-top: 120px;
+  padding-right: 50px;
+  padding-bottom: 120px;
+  padding-left: 70px;
+}
+
+#contact ul {
+	padding-top: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
